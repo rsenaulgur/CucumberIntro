@@ -4,3 +4,4 @@ Feature: Apply Now
     Given Go To TechnoStudy website
     When On click of Apply Now at top nav
     Then Navigate to Apply Now page and assert URL
+
