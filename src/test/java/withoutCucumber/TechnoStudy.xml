@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Techno Study Suite" parallel="classes" thread-count="3">
+
+        <test name="Regression Test">
+            <classes>
+               <class name="withoutCucumber.ApplyNow"></class>
+                <class name="withoutCucumber.ContactUs"></class>
+                <class name="withoutCucumber.HomePage"></class>
+            </classes>
+        </test>
+
+</suite>
